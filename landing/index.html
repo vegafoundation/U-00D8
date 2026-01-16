@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ø — The Search Engine for Every AI and Every Script in the World</title>
-    <meta name="description" content="Ø is the search engine for every AI, every script, and every repository in the world. Join the waitlist.">
+    <title>Ø Search Engine — The First Resonant Search Engine of the World</title>
+    <meta name="description" content="Ø Search Engine — Search Music, PDF, Whitepaper, Wiki, Blockchain, Pre-Quantum Chain. The first Resonant Search Engine of the World.">
     <link rel="stylesheet" href="styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -23,6 +23,7 @@
                     <a href="#features">Features</a>
                     <a href="#claim">Claim</a>
                     <a href="#vision">Vision</a>
+                    <button id="theme-toggle" class="theme-toggle" title="Toggle Theme">🎮</button>
                     <a href="#waitlist" class="btn-primary">Join Waitlist</a>
                 </div>
             </div>
@@ -38,10 +39,18 @@
     ██████╗ 
    ██╔═══██╗
    ██║   ██║
-   ██║   ██║
+   ██║ ══██║
    ╚██████╔╝
     ╚═════╝ 
                     </pre>
+                </div>
+                <div class="search-container">
+                    <div class="search-box">
+                        <span class="search-icon">🔍</span>
+                        <input type="text" id="repo-search" placeholder="Search repositories... (e.g. facebook/react)" autocomplete="off">
+                        <button id="search-btn" class="search-btn">Search</button>
+                    </div>
+                    <div id="search-results" class="search-results"></div>
                 </div>
                 <h1 class="hero-title">
                     THE FIRST<br>
