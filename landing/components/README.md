@@ -42,7 +42,7 @@ import OLogo from './OLogoFuturistic';
 
 ## ⚡ OSlash.tsx
 
-**Futuristic Clean Tech Ø-Logo** — Minimalist & Versatile
+**Futuristic Clean Tech Ø-Logo** — Minimalist & Versatile (Horizontal Stroke)
 
 **Features:**
 - 5 Variants: default, glow, minimal, outline, solid
@@ -63,14 +63,56 @@ import OLogo from './OLogoFuturistic';
 ```tsx
 import OSlash from './OSlash';
 
-// Default
-<OSlash />
-
-// With props
 <OSlash size={120} color="cyan" variant="glow" />
-<OSlash size={64} color="green" variant="minimal" />
-<OSlash size={300} color="purple" variant="solid" />
 ```
+
+**Source:** Claude Entropy (Inspiration for further designs)
+
+**Files:**
+- `OSlash.tsx` — Main component
+- `OSlashDemo.tsx` — Demo app
+
+---
+
+## ↗ OSlashDiagonal.tsx
+
+**Futuristic Clean Tech Ø-Logo** — Unicode U+00D8 Style (Diagonal Stroke)
+
+**Features:**
+- 5 Variants: default, glow, minimal, outline, solid
+- 4 Colors: cyan, green, purple, white
+- **Diagonal stroke** (top-right → bottom-left)
+- **Overshoot control** — Stroke extends beyond circle (0-0.5)
+- Auto stroke width based on size
+- Smooth animations & hover effects
+- Responsive design (24px → 280px+)
+- **Like real Unicode U+00D8: Ø**
+
+**Props:**
+- `size?: number` — Logo size in pixels (default: 200)
+- `color?: 'cyan' | 'green' | 'purple' | 'white'` — Color variant (default: 'cyan')
+- `variant?: 'default' | 'minimal' | 'glow' | 'outline' | 'solid'` — Style variant (default: 'default')
+- `animated?: boolean` — Enable animations (default: true)
+- `strokeWidth?: number | 'auto'` — Stroke width (default: 'auto')
+- `overshoot?: number` — Stroke extension beyond circle 0-0.5 (default: 0.2)
+
+**Usage:**
+```tsx
+import OSlashDiagonal from './OSlashDiagonal';
+
+// Default (20% overshoot)
+<OSlashDiagonal size={120} color="cyan" variant="glow" />
+
+// Custom overshoot (25% - like Unicode U+00D8)
+<OSlashDiagonal size={280} color="cyan" variant="default" overshoot={0.25} />
+```
+
+**Overshoot Examples:**
+- `0` — Stroke touches circle edge
+- `0.15` — Small extension
+- `0.25` — Medium extension (recommended, like Unicode)
+- `0.35` — Large extension
+- `0.5` — Maximum extension
 
 **Variants:**
 - `default` — Full featured with glow and inner ring
@@ -82,8 +124,8 @@ import OSlash from './OSlash';
 **Source:** Claude Entropy (Inspiration for further designs)
 
 **Files:**
-- `OSlash.tsx` — Main component
-- `OSlashDemo.tsx` — Demo app with all variants, colors, and sizes
+- `OSlashDiagonal.tsx` — Main component
+- `OSlashDiagonalDemo.tsx` — Demo app with overshoot variations
 
 ---
 
