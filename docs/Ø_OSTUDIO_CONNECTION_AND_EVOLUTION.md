@@ -310,6 +310,29 @@ ostudio → https://github.com/vegafoundation/OSTUDIO.git
 
 ---
 
+## 🌐 GITHUB PAGES DEPLOYMENT
+
+### **OSTUDIO GitHub Pages:**
+
+**Live Site:** `https://vegafoundation.github.io/OSTUDIO/`
+
+**Status:** ✅ **ACTIVE & LIVE**
+
+**Configuration:**
+- Source: Deploy from branch
+- Branch: `main`
+- Directory: `/(root)`
+- HTTPS: Enforced ✅
+- Auto-deploy: On push to `main`
+
+**Security:**
+- ⚠️ Repository: Private
+- ⚠️ Published Site: Public
+
+**See:** [GitHub Pages Deployment](./GITHUB_PAGES_DEPLOYMENT.md) for details
+
+---
+
 ## 🔧 GIT COMMANDS
 
 ### **View Connection:**
