@@ -129,6 +129,71 @@ import OSlashDiagonal from './OSlashDiagonal';
 
 ---
 
+## 🌊 QNFTLiveLogo.tsx
+
+**Resonance QNFT Live Logo** — Living Digital Tissue
+
+**Features:**
+- **4 Modes:** live, loading, processing, idle
+- **6 Frequencies:** 358, 432, 528, 639, 852, 963 Hz
+- **QNFT Uniqueness:** Seed-based generation
+- **Dither Overlay:** Animated dithering effect
+- **Scanlines:** CRT-style scanlines
+- **Resonance Waves:** Animated frequency waves
+- **Processing Particles:** Orbiting particles
+- **Data Stream:** Falling tech characters
+- **Text Scrambling:** Glitch text effects
+- **RGB Glitch:** Color separation on hover/processing
+- **Progress Bar:** Loading mode with progress
+- **Diagonal Stroke:** Unicode U+00D8 style
+
+**Props:**
+- `seed?: string` — QNFT seed for uniqueness (default: 'vega-qnft')
+- `size?: number` — Logo size in pixels (default: 300)
+- `frequency?: number` — Resonance frequency (default: 432)
+- `mode?: 'live' | 'loading' | 'processing' | 'idle'` — Display mode (default: 'live')
+- `showData?: boolean` — Show data panel (default: true)
+- `showFrequency?: boolean` — Show frequency display (default: true)
+- `onComplete?: () => void` — Callback when loading completes
+
+**Usage:**
+```tsx
+import QNFTLiveLogo from './QNFTLiveLogo';
+
+// Live mode
+<QNFTLiveLogo seed="unique-qnft" size={280} frequency={432} mode="live" />
+
+// Loading mode
+<QNFTLiveLogo seed="unique-qnft" size={280} frequency={432} mode="loading" onComplete={() => console.log('Done!')} />
+
+// Processing mode
+<QNFTLiveLogo seed="unique-qnft" size={280} frequency={852} mode="processing" />
+```
+
+**Modes:**
+- `idle` — Static, minimal effects
+- `live` — Full resonance effects, waves, particles
+- `processing` — Active processing with glitch effects
+- `loading` — Progress bar, particles, scrambling text
+
+**Effects:**
+- Dither Overlay (animated noise)
+- Scanlines (CRT effect)
+- Resonance Waves (frequency-based)
+- Processing Particles (orbiting)
+- Data Stream (falling characters)
+- Text Scrambling (glitch effect)
+- RGB Glitch (color separation)
+- Glow Animation (pulsing)
+
+**Source:** Claude Entropy (Inspiration for further designs)
+
+**Files:**
+- `QNFTLiveLogo.tsx` — Main component
+- `QNFTLiveLogoDemo.tsx` — Demo app with controls
+
+---
+
 ## 🎬 Ø ASCII LOADER
 
 Cinematic Terminal Boot Sequence für Ø Studio.
