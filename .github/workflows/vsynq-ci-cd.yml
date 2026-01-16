@@ -1,0 +1,48 @@
+name: VSYNQ Fullstack CI/CD
+
+# ═══════════════════════════════════════════════════════════════════════════════
+# DISABLED: This workflow is for VSYNQ, not for Ø Vision Repository
+# Ø Repository is a Vision/Conceptual Framework repository, no CI/CD needed
+# ═══════════════════════════════════════════════════════════════════════════════
+
+on:
+  workflow_dispatch:  # Only manual trigger, not on push
+  # push:
+  #   branches: [main, production]
+  # pull_request:
+  #   branches: [main]
+
+permissions:
+  contents: read  # Changed from write to read
+
+concurrency:
+  group: "vsynq-deploy"
+  cancel-in-progress: true
+
+jobs:
+  build-test:
+    runs-on: ubuntu-latest
+    if: false  # Disabled - not relevant for Ø Vision Repository
+    steps:
+      - name: Workflow Disabled
+        run: |
+          echo "This workflow is disabled for Ø Vision Repository."
+          echo "Ø Repository is a Vision/Conceptual Framework repository."
+          echo "No CI/CD needed."
+          exit 0
+
+  deploy-vps:
+    needs: build-test
+    runs-on: ubuntu-latest
+    if: false  # Disabled
+    steps:
+      - name: Workflow Disabled
+        run: exit 0
+
+  deploy-snk:
+    needs: build-test
+    runs-on: ubuntu-latest
+    if: false  # Disabled
+    steps:
+      - name: Workflow Disabled
+        run: exit 0
