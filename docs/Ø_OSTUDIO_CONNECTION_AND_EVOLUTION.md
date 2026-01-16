@@ -171,6 +171,40 @@ ostudio → https://github.com/vegafoundation/OSTUDIO.git
 
 ---
 
+## 🔄 WORKFLOW: WISDOM → NEW VERSION → BOTH REPOS
+
+### **Branch Naming Convention:**
+```
+v{MAJOR}.{MINOR}.{PATCH}-wisdom-{SOURCE}-{DESCRIPTION}
+```
+
+### **Current Wisdom Branch:**
+- `ostudio/claude/fullstack-implementation-guide-6XSAC`
+  - Fullstack implementation guide
+  - Complete architecture patterns
+  - Production deployment setup
+
+### **Repository Separation:**
+
+**U-00D8 (Vision Repository):**
+- ✅ Documentation only
+- ✅ Vision & Conceptual Framework
+- ✅ Landing Page Components
+- ✅ **VPS-KONFORM** (Official)
+- ❌ **NO Backend Code**
+- ❌ **NO Structure Files**
+
+**OSTUDIO (Code Repository):**
+- ✅ All Backend Code
+- ✅ All Frontend Code
+- ✅ All Services
+- ✅ All Deployment Scripts
+- ✅ All Implementation
+
+**See:** [Repository Workflow](./REPOSITORY_WORKFLOW.md) for details
+
+---
+
 ## 🚀 EVOLUTION ROADMAP
 
 ### **Phase 1: Connection (✅ COMPLETE)**
