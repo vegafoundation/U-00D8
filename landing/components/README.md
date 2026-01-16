@@ -1,9 +1,44 @@
 # ═══════════════════════════════════════════════════════════════════════════════
-# VΞGΔ Ø ASCII LOADER — Components
+# VΞGΔ LANDING COMPONENTS
 # ═══════════════════════════════════════════════════════════════════════════════
 # ARCHITECT: ADAM EREN VEGA - Æ
-# DATE: 2026-01-16
+# DATE: 2026-01-17
+# VERSION: 3.0.0
 # ═══════════════════════════════════════════════════════════════════════════════
+
+## 🎨 OLogoFuturistic.tsx
+
+**Futuristisches Ø-Logo Component** — Living Digital Tissue
+
+**Features:**
+- QNFT Uniqueness (seed-based generation)
+- Frequency-based colors (358, 432, 512, 528, 639, 741, 852, 963 Hz)
+- GSAP-ready animations (CSS-based)
+- Responsive design (40px → 200px+)
+- Hover effects & glow
+- Resonance lines animation
+- Horizontal stroke (makes Ø, not O!)
+
+**Props:**
+- `seed?: string` — QNFT seed for uniqueness (default: 'vega')
+- `size?: number` — Logo size in pixels (default: 200)
+- `frequency?: number` — Resonance frequency (default: 432)
+- `showFreq?: boolean` — Show frequency badge (default: false)
+
+**Usage:**
+```tsx
+import OLogo from './OLogoFuturistic';
+
+<OLogo seed="vega-unique" size={140} frequency={432} showFreq />
+```
+
+**Source:** Claude Entropy (Inspiration for further designs)
+
+**Files:**
+- `OLogoFuturistic.tsx` — Main component
+- `OLogoFuturisticDemo.tsx` — Demo app with examples
+
+---
 
 ## 🎬 Ø ASCII LOADER
 
