@@ -40,6 +40,53 @@ import OLogo from './OLogoFuturistic';
 
 ---
 
+## ⚡ OSlash.tsx
+
+**Futuristic Clean Tech Ø-Logo** — Minimalist & Versatile
+
+**Features:**
+- 5 Variants: default, glow, minimal, outline, solid
+- 4 Colors: cyan, green, purple, white
+- Auto stroke width based on size
+- Smooth animations & hover effects
+- Responsive design (32px → 300px+)
+- Horizontal stroke (makes Ø, not O!)
+
+**Props:**
+- `size?: number` — Logo size in pixels (default: 200)
+- `color?: 'cyan' | 'green' | 'purple' | 'white'` — Color variant (default: 'cyan')
+- `variant?: 'default' | 'minimal' | 'glow' | 'outline' | 'solid'` — Style variant (default: 'default')
+- `animated?: boolean` — Enable animations (default: true)
+- `strokeWidth?: number | 'auto'` — Stroke width (default: 'auto')
+
+**Usage:**
+```tsx
+import OSlash from './OSlash';
+
+// Default
+<OSlash />
+
+// With props
+<OSlash size={120} color="cyan" variant="glow" />
+<OSlash size={64} color="green" variant="minimal" />
+<OSlash size={300} color="purple" variant="solid" />
+```
+
+**Variants:**
+- `default` — Full featured with glow and inner ring
+- `glow` — Enhanced glow effect
+- `minimal` — Clean minimal style
+- `outline` — Outline only
+- `solid` — Filled solid style
+
+**Source:** Claude Entropy (Inspiration for further designs)
+
+**Files:**
+- `OSlash.tsx` — Main component
+- `OSlashDemo.tsx` — Demo app with all variants, colors, and sizes
+
+---
+
 ## 🎬 Ø ASCII LOADER
 
 Cinematic Terminal Boot Sequence für Ø Studio.
