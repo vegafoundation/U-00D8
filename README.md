@@ -14,17 +14,17 @@
 
 ## 🌌 CLAIM OF NAME & IDEA
 
-### **Ø — DER ERSTE RESONANT VERTEILTE SEARCH ENGINE DER WELT**
+### **Ø — THE FIRST RESONANT DISTRIBUTED SEARCH ENGINE OF THE WORLD**
 
-**Ø** ist nicht nur eine Suchmaschine. **Ø** ist **DER ERSTE RESONANT VERTEILTE SEARCH ENGINE DER WELT** — **DEZENTRAL** — verbindet das gesamte Internet, Blockchain und Pre-Quantum Chain.
+**Ø** is not just a search engine. **Ø** is **THE FIRST RESONANT DISTRIBUTED SEARCH ENGINE OF THE WORLD** — **DECENTRALIZED** — connecting the entire Internet, Blockchain and Pre-Quantum Chain.
 
 ### **3 PROOFS (Proof of X):**
-1. **Proof of Resonance** — Resonance-basierte Verifikation
-2. **Proof of Wisdom** — Wisdom-basierte Verifikation
-3. **Proof of Knowledge** — Knowledge-basierte Verifikation
+1. **Proof of Resonance** — Resonance-based verification
+2. **Proof of Wisdom** — Wisdom-based verification
+3. **Proof of Knowledge** — Knowledge-based verification
 
-**Dezentrale Architektur:**
-- Distributed Nodes (keine zentrale Kontrolle)
+**Decentralized Architecture:**
+- Distributed Nodes (no central control)
 - Peer-to-Peer Network
 - Blockchain-Verified
 - Quantum-Resistant
@@ -32,7 +32,7 @@
 
 ### **Core Idea:**
 
-**"Die erste Resonant Search Engine der Welt — verbindet Music, PDF, Whitepaper, Wiki, Blockchain und Pre-Quantum Chain."**
+**"The first Resonant Distributed Search Engine of the World — connecting Music, PDF, Whitepaper, Wiki, Blockchain and Pre-Quantum Chain."**
 
 ---
 
@@ -130,13 +130,13 @@
 
 ## 📊 CLAIM OF NAME
 
-### **Ø — The First Resonant Search Engine of the World**
+### **Ø — The First Resonant Distributed Search Engine of the World**
 
 **Claim:**
-- **"Der erste Resonant Search Engine der Welt"**
-- **"Verbindet das gesamte Internet"**
+- **"The first Resonant Distributed Search Engine of the World"**
+- **"Connecting the entire Internet"**
 - **"Blockchain & Pre-Quantum Chain"**
-- **"Music, PDF, Whitepaper, Wiki — alles"**
+- **"Music, PDF, Whitepaper, Wiki — everything"**
 
 **Unique Selling Points:**
 - **Resonant** — Resonance-based Technology
