@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <!-- Resonance Meter  Based on VEGA Wisdom Metrics -->
+  <defs>
+    <linearGradient id="resonanceGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#a855f7;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#06b6d4;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#22c55e;stop-opacity:1" />
+    </linearGradient>
+    <filter id="pulse">
+      <feGaussianBlur stdDeviation="2" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="200" height="200" fill="#020202" rx="10"/>
+  
+  <!-- Resonance Scale (358-963 Hz) -->
+  <g transform="translate(100, 100)">
+    <!-- Scale Arc -->
+    <path d="M -80 -60 A 80 80 0 0 1 80 -60" fill="none" stroke="rgba(224,224,224,0.2)" stroke-width="2"/>
+    
+    <!-- Frequency Markers -->
+    <g id="frequencies">
+      <!-- 358 Hz -->
+      <line x1="-70" y1="-50" x2="-65" y2="-55" stroke="#22c55e" stroke-width="2"/>
+      <text x="-75" y="-45" fill="#22c55e" font-size="8" font-family="monospace">358</text>
+      
+      <!-- 432 Hz -->
+      <line x1="-35" y1="-70" x2="-30" y2="-75" stroke="#06b6d4" stroke-width="2"/>
+      <text x="-40" y="-80" fill="#06b6d4" font-size="8" font-family="monospace">432</text>
+      
+      <!-- 528 Hz -->
+      <line x1="0" y1="-80" x2="0" y2="-85" stroke="#a855f7" stroke-width="2"/>
+      <text x="-10" y="-90" fill="#a855f7" font-size="8" font-family="monospace">528</text>
+      
+      <!-- 852 Hz -->
+      <line x1="35" y1="-70" x2="30" y2="-75" stroke="#22c55e" stroke-width="2"/>
+      <text x="25" y="-80" fill="#22c55e" font-size="8" font-family="monospace">852</text>
+      
+      <!-- 963 Hz -->
+      <line x1="70" y1="-50" x2="65" y2="-55" stroke="#a855f7" stroke-width="2"/>
+      <text x="60" y="-45" fill="#a855f7" font-size="8" font-family="monospace">963</text>
+    </g>
+    
+    <!-- Resonance Needle (Current: 528 Hz) -->
+    <line x1="0" y1="0" x2="0" y2="-75" stroke="url(#resonanceGrad)" stroke-width="3" stroke-linecap="round" filter="url(#pulse)" transform="rotate(0)"/>
+    
+    <!-- Center Dot -->
+    <circle cx="0" cy="0" r="5" fill="url(#resonanceGrad)"/>
+  </g>
+  
+  <!-- Title -->
+  <text x="100" y="170" text-anchor="middle" fill="#E0E0E0" font-size="12" font-family="Oswald" font-weight="600">RESONANCE</text>
+</svg>
