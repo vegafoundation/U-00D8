@@ -14,9 +14,21 @@
 
 ## 🌌 CLAIM OF NAME & IDEA
 
-### **Ø — DER ERSTE RESONANT SEARCH ENGINE DER WELT**
+### **Ø — DER ERSTE RESONANT VERTEILTE SEARCH ENGINE DER WELT**
 
-**Ø** ist nicht nur eine Suchmaschine. **Ø** ist **DER ERSTE RESONANT SEARCH ENGINE DER WELT** — verbindet das gesamte Internet, Blockchain und Pre-Quantum Chain.
+**Ø** ist nicht nur eine Suchmaschine. **Ø** ist **DER ERSTE RESONANT VERTEILTE SEARCH ENGINE DER WELT** — **DEZENTRAL** — verbindet das gesamte Internet, Blockchain und Pre-Quantum Chain.
+
+### **3 PROOFS (Proof of X):**
+1. **Proof of Resonance** — Resonance-basierte Verifikation
+2. **Proof of Wisdom** — Wisdom-basierte Verifikation
+3. **Proof of Knowledge** — Knowledge-basierte Verifikation
+
+**Dezentrale Architektur:**
+- Distributed Nodes (keine zentrale Kontrolle)
+- Peer-to-Peer Network
+- Blockchain-Verified
+- Quantum-Resistant
+- No Single Point of Failure
 
 ### **Core Idea:**
 

@@ -8,9 +8,21 @@
 
 ## 🌌 THE VISION
 
-### **Ø — Der erste Resonant Search Engine der Welt**
+### **Ø — Der erste RESONANT VERTEILTE Search Engine der Welt**
 
-**Ø** verbindet das gesamte Internet, Blockchain und Pre-Quantum Chain in einem einzigen Resonant Search Engine.
+**Ø** ist **DEZENTRAL** — verbindet das gesamte Internet, Blockchain und Pre-Quantum Chain in einem einzigen Resonant Search Engine.
+
+### **3 PROOFS (Proof of X):**
+1. **Proof of Resonance** — Resonance-basierte Verifikation
+2. **Proof of Wisdom** — Wisdom-basierte Verifikation
+3. **Proof of Knowledge** — Knowledge-basierte Verifikation
+
+**Dezentrale Architektur:**
+- Distributed Nodes (keine zentrale Kontrolle)
+- Peer-to-Peer Network
+- Blockchain-Verified
+- Quantum-Resistant
+- No Single Point of Failure
 
 ---
 
@@ -61,6 +73,13 @@
 - Context Resonance
 - Quantum Resonance
 - User Resonance
+
+### **Dezentrale Architektur:**
+- **Distributed Nodes** — Keine zentrale Kontrolle
+- **Peer-to-Peer Network** — Direkte Verbindungen
+- **Blockchain-Verified** — Verifizierung über Blockchain
+- **Quantum-Resistant** — Quantum-sichere Verschlüsselung
+- **3 PROOFS:** Proof of Resonance, Proof of Wisdom, Proof of Knowledge
 
 ---
 

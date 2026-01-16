@@ -9,13 +9,26 @@
 
 ## 🌌 CLAIM OF NAME & IDEA
 
-### **Ø — DER ERSTE RESONANT SEARCH ENGINE DER WELT**
+### **Ø — DER ERSTE RESONANT VERTEILTE SEARCH ENGINE DER WELT**
 
-**Ø** ist nicht nur eine Suchmaschine. **Ø** ist **DER ERSTE RESONANT SEARCH ENGINE DER WELT** — verbindet das gesamte Internet, Blockchain und Pre-Quantum Chain.
+**Ø** ist nicht nur eine Suchmaschine. **Ø** ist **DER ERSTE RESONANT VERTEILTE SEARCH ENGINE DER WELT** — **DEZENTRAL**, verbindet das gesamte Internet, Blockchain und Pre-Quantum Chain.
 
 ### **Kern-Idee:**
 
-**"Die erste Resonant Search Engine der Welt — verbindet Music, PDF, Whitepaper, Wiki, Blockchain und Pre-Quantum Chain."**
+**"Die erste RESONANT VERTEILTE Search Engine der Welt — DEZENTRAL — verbindet Music, PDF, Whitepaper, Wiki, Blockchain und Pre-Quantum Chain."**
+
+### **3 PROOFS (Proof of X):**
+
+1. **Proof of Resonance** — Resonance-basierte Verifikation und Konsens
+2. **Proof of Wisdom** — Wisdom-basierte Verifikation und Konsens
+3. **Proof of Knowledge** — Knowledge-basierte Verifikation und Konsens
+
+**Dezentrale Architektur:**
+- Distributed Nodes (keine zentrale Kontrolle)
+- Peer-to-Peer Network
+- Blockchain-Verified
+- Quantum-Resistant
+- No Single Point of Failure
 
 ---
 
@@ -46,6 +59,14 @@
 - **Frequency Matching** — Frequenz-basierte Suche
 - **Context Resonance** — Kontext-bewusste Ergebnisse
 - **Quantum Resonance** — Quantum-Resonanz-Algorithmen
+
+### **5. Dezentrale Architektur (DEZENTRAL)**
+- **Distributed Nodes** — Keine zentrale Kontrolle
+- **Peer-to-Peer Network** — Direkte Verbindungen zwischen Nodes
+- **Blockchain-Verified** — Verifizierung über Blockchain
+- **Quantum-Resistant** — Quantum-sichere Verschlüsselung
+- **No Single Point of Failure** — Kein Ausfallpunkt
+- **3 PROOFS:** Proof of Resonance, Proof of Wisdom, Proof of Knowledge
 
 ---
 
