@@ -194,6 +194,86 @@ import QNFTLiveLogo from './QNFTLiveLogo';
 
 ---
 
+## 🌌 EntropyLogo.tsx
+
+**Entropy QNFT Logo System** — Multiple Variants | Entropy Injection | Chaos Outcomes | Living Digital Tissue
+
+**Features:**
+- **8 Variants:** void, supernova, quantum, plasma, entropy, cosmic, solar, matrix
+- **8 Palettes:** Each variant has unique color palette (cross-compatible)
+- **Entropy Engine:** Seeded random generation for consistent uniqueness
+- **QNFT Uniqueness:** Seed-based generation ensures no two logos are identical
+- **Entropy Injection:** Dynamic chaos parameter injection
+- **Entropy Outcome:** Real-time chaos metrics display
+- **Noise Dither:** Animated dithering overlay
+- **Scanlines:** CRT-style scanlines effect
+- **Glitch Effects:** RGB split, fragment floating, matrix rain
+- **Animation Hooks:** Custom `useFrame` and `useScramble` hooks
+- **Diagonal Stroke:** Unicode U+00D8 style (top-right → bottom-left)
+- **Responsive Design:** Scales from 40px to 300px+
+
+**Props:**
+- `seed?: string` — QNFT seed for uniqueness (default: 'ENTROPY')
+- `size?: number` — Logo size in pixels (default: 200)
+- `variant?: 'void' | 'supernova' | 'quantum' | 'plasma' | 'entropy' | 'cosmic' | 'solar' | 'matrix'` — Variant (default: 'entropy')
+- `palette?: string` — Override palette (default: variant's palette)
+- `active?: boolean` — Enable animations (default: true)
+- `showData?: boolean` — Show variant/seed text (default: true)
+- `showDither?: boolean` — Show dither overlay (default: true)
+- `showScanlines?: boolean` — Show scanlines (default: true)
+
+**Usage:**
+```tsx
+import { EntropyLogo, EntropyInjector, EntropyOutcome } from './EntropyLogo';
+
+// Basic usage
+<EntropyLogo seed="unique-seed" size={200} variant="entropy" />
+
+// With entropy controls
+<EntropyLogo seed="chaos-seed" size={260} variant="quantum" active={true} />
+<EntropyInjector onInject={(values) => console.log(values)} />
+<EntropyOutcome entropy={entropy} palette="quantum" />
+```
+
+**Variants:**
+- `void` — Minimalist, breathing void center, subtle glow
+- `supernova` — Corona rays, radial gradients, intense glow
+- `quantum` — Orbital particles, nucleus, quantum mechanics aesthetic
+- `plasma` — Blob distortion, fluid motion, plasma waves
+- `entropy` — Floating fragments, RGB glitch, chaos visualization
+- `cosmic` — Nebula background, twinkling stars, cosmic gradient
+- `solar` — Solar flares, radial core, sun-like appearance
+- `matrix` — Matrix rain, binary inner ring, digital aesthetic
+
+**Entropy Engine:**
+- Seeded random number generation
+- Consistent hash-based state
+- Signature generation (chaos, drift, pulse, warp, spin, flicker, phase)
+- Color variation with variance control
+- Reset capability for reproducible results
+
+**Entropy Components:**
+- `EntropyInjector` — Button to inject new chaos parameters
+- `EntropyOutcome` — Display real-time entropy metrics (CHAOS, DRIFT, PULSE, WARP, SPIN, FLICKER)
+
+**Visual Effects:**
+- Noise Dither (animated canvas overlay)
+- Scanlines (CRT effect)
+- Glow (radial gradient, size-based blur)
+- Text Scrambling (glitch characters on hover)
+- RGB Split (color separation on glitch)
+- Fragment Floating (entropy variant)
+- Matrix Rain (matrix variant)
+- Resonance Waves (quantum variant)
+
+**Source:** Claude Entropy (Inspiration for further designs)
+
+**Files:**
+- `EntropyLogo.tsx` — Main component with all variants
+- `EntropyLogoDemo.tsx` — Full demo app with all features
+
+---
+
 ## 🎬 Ø ASCII LOADER
 
 Cinematic Terminal Boot Sequence für Ø Studio.
