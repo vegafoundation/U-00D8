@@ -141,6 +141,7 @@ def calculate_frequency_resonance(frequency: int, data: Any) -> float:
 
 ### **1. Sense → Process → Render**
 
+{% raw %}
 ```typescript
 export const VegaComponent = ({ seed }: { seed: string }) => {
   // 1. SENSE (Inputs)
@@ -167,6 +168,7 @@ export const VegaComponent = ({ seed }: { seed: string }) => {
   );
 };
 ```
+{% endraw %}
 
 ### **2. Self-Healing Pattern**
 
