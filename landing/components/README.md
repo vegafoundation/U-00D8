@@ -1,9 +1,198 @@
 # ═══════════════════════════════════════════════════════════════════════════════
-# VΞGΔ Ø ASCII LOADER — Components
+# VΞGΔ LANDING COMPONENTS
 # ═══════════════════════════════════════════════════════════════════════════════
 # ARCHITECT: ADAM EREN VEGA - Æ
-# DATE: 2026-01-16
+# DATE: 2026-01-17
+# VERSION: 3.0.0
 # ═══════════════════════════════════════════════════════════════════════════════
+
+## 🎨 OLogoFuturistic.tsx
+
+**Futuristisches Ø-Logo Component** — Living Digital Tissue
+
+**Features:**
+- QNFT Uniqueness (seed-based generation)
+- Frequency-based colors (358, 432, 512, 528, 639, 741, 852, 963 Hz)
+- GSAP-ready animations (CSS-based)
+- Responsive design (40px → 200px+)
+- Hover effects & glow
+- Resonance lines animation
+- Horizontal stroke (makes Ø, not O!)
+
+**Props:**
+- `seed?: string` — QNFT seed for uniqueness (default: 'vega')
+- `size?: number` — Logo size in pixels (default: 200)
+- `frequency?: number` — Resonance frequency (default: 432)
+- `showFreq?: boolean` — Show frequency badge (default: false)
+
+**Usage:**
+```tsx
+import OLogo from './OLogoFuturistic';
+
+<OLogo seed="vega-unique" size={140} frequency={432} showFreq />
+```
+
+**Source:** Claude Entropy (Inspiration for further designs)
+
+**Files:**
+- `OLogoFuturistic.tsx` — Main component
+- `OLogoFuturisticDemo.tsx` — Demo app with examples
+
+---
+
+## ⚡ OSlash.tsx
+
+**Futuristic Clean Tech Ø-Logo** — Minimalist & Versatile (Horizontal Stroke)
+
+**Features:**
+- 5 Variants: default, glow, minimal, outline, solid
+- 4 Colors: cyan, green, purple, white
+- Auto stroke width based on size
+- Smooth animations & hover effects
+- Responsive design (32px → 300px+)
+- Horizontal stroke (makes Ø, not O!)
+
+**Props:**
+- `size?: number` — Logo size in pixels (default: 200)
+- `color?: 'cyan' | 'green' | 'purple' | 'white'` — Color variant (default: 'cyan')
+- `variant?: 'default' | 'minimal' | 'glow' | 'outline' | 'solid'` — Style variant (default: 'default')
+- `animated?: boolean` — Enable animations (default: true)
+- `strokeWidth?: number | 'auto'` — Stroke width (default: 'auto')
+
+**Usage:**
+```tsx
+import OSlash from './OSlash';
+
+<OSlash size={120} color="cyan" variant="glow" />
+```
+
+**Source:** Claude Entropy (Inspiration for further designs)
+
+**Files:**
+- `OSlash.tsx` — Main component
+- `OSlashDemo.tsx` — Demo app
+
+---
+
+## ↗ OSlashDiagonal.tsx
+
+**Futuristic Clean Tech Ø-Logo** — Unicode U+00D8 Style (Diagonal Stroke)
+
+**Features:**
+- 5 Variants: default, glow, minimal, outline, solid
+- 4 Colors: cyan, green, purple, white
+- **Diagonal stroke** (top-right → bottom-left)
+- **Overshoot control** — Stroke extends beyond circle (0-0.5)
+- Auto stroke width based on size
+- Smooth animations & hover effects
+- Responsive design (24px → 280px+)
+- **Like real Unicode U+00D8: Ø**
+
+**Props:**
+- `size?: number` — Logo size in pixels (default: 200)
+- `color?: 'cyan' | 'green' | 'purple' | 'white'` — Color variant (default: 'cyan')
+- `variant?: 'default' | 'minimal' | 'glow' | 'outline' | 'solid'` — Style variant (default: 'default')
+- `animated?: boolean` — Enable animations (default: true)
+- `strokeWidth?: number | 'auto'` — Stroke width (default: 'auto')
+- `overshoot?: number` — Stroke extension beyond circle 0-0.5 (default: 0.2)
+
+**Usage:**
+```tsx
+import OSlashDiagonal from './OSlashDiagonal';
+
+// Default (20% overshoot)
+<OSlashDiagonal size={120} color="cyan" variant="glow" />
+
+// Custom overshoot (25% - like Unicode U+00D8)
+<OSlashDiagonal size={280} color="cyan" variant="default" overshoot={0.25} />
+```
+
+**Overshoot Examples:**
+- `0` — Stroke touches circle edge
+- `0.15` — Small extension
+- `0.25` — Medium extension (recommended, like Unicode)
+- `0.35` — Large extension
+- `0.5` — Maximum extension
+
+**Variants:**
+- `default` — Full featured with glow and inner ring
+- `glow` — Enhanced glow effect
+- `minimal` — Clean minimal style
+- `outline` — Outline only
+- `solid` — Filled solid style
+
+**Source:** Claude Entropy (Inspiration for further designs)
+
+**Files:**
+- `OSlashDiagonal.tsx` — Main component
+- `OSlashDiagonalDemo.tsx` — Demo app with overshoot variations
+
+---
+
+## 🌊 QNFTLiveLogo.tsx
+
+**Resonance QNFT Live Logo** — Living Digital Tissue
+
+**Features:**
+- **4 Modes:** live, loading, processing, idle
+- **6 Frequencies:** 358, 432, 528, 639, 852, 963 Hz
+- **QNFT Uniqueness:** Seed-based generation
+- **Dither Overlay:** Animated dithering effect
+- **Scanlines:** CRT-style scanlines
+- **Resonance Waves:** Animated frequency waves
+- **Processing Particles:** Orbiting particles
+- **Data Stream:** Falling tech characters
+- **Text Scrambling:** Glitch text effects
+- **RGB Glitch:** Color separation on hover/processing
+- **Progress Bar:** Loading mode with progress
+- **Diagonal Stroke:** Unicode U+00D8 style
+
+**Props:**
+- `seed?: string` — QNFT seed for uniqueness (default: 'vega-qnft')
+- `size?: number` — Logo size in pixels (default: 300)
+- `frequency?: number` — Resonance frequency (default: 432)
+- `mode?: 'live' | 'loading' | 'processing' | 'idle'` — Display mode (default: 'live')
+- `showData?: boolean` — Show data panel (default: true)
+- `showFrequency?: boolean` — Show frequency display (default: true)
+- `onComplete?: () => void` — Callback when loading completes
+
+**Usage:**
+```tsx
+import QNFTLiveLogo from './QNFTLiveLogo';
+
+// Live mode
+<QNFTLiveLogo seed="unique-qnft" size={280} frequency={432} mode="live" />
+
+// Loading mode
+<QNFTLiveLogo seed="unique-qnft" size={280} frequency={432} mode="loading" onComplete={() => console.log('Done!')} />
+
+// Processing mode
+<QNFTLiveLogo seed="unique-qnft" size={280} frequency={852} mode="processing" />
+```
+
+**Modes:**
+- `idle` — Static, minimal effects
+- `live` — Full resonance effects, waves, particles
+- `processing` — Active processing with glitch effects
+- `loading` — Progress bar, particles, scrambling text
+
+**Effects:**
+- Dither Overlay (animated noise)
+- Scanlines (CRT effect)
+- Resonance Waves (frequency-based)
+- Processing Particles (orbiting)
+- Data Stream (falling characters)
+- Text Scrambling (glitch effect)
+- RGB Glitch (color separation)
+- Glow Animation (pulsing)
+
+**Source:** Claude Entropy (Inspiration for further designs)
+
+**Files:**
+- `QNFTLiveLogo.tsx` — Main component
+- `QNFTLiveLogoDemo.tsx` — Demo app with controls
+
+---
 
 ## 🎬 Ø ASCII LOADER
 

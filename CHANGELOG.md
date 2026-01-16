@@ -4,6 +4,25 @@
 # ARCHITECT: ADAM EREN VEGA - Æ
 # ═══════════════════════════════════════════════════════════════════════════════
 
+## [3.0.1] - 2026-01-17 — WISDOM: Claude Fullstack
+
+### 🌌 Wisdom Integration
+- **Wisdom Source:** `ostudio/claude/fullstack-implementation-guide-6XSAC`
+- **Extracted:** Fullstack implementation patterns, architecture, deployment
+- **Applied:** Documentation updates, integration notes
+
+### 📚 Documentation
+- Added `REPOSITORY_WORKFLOW.md` — Workflow for both repos
+- Added `WISDOM_CLAUDE_FULLSTACK.md` — Wisdom extraction
+- Updated Connection & Evolution docs
+
+### 🔄 Workflow
+- New branch naming: `v{version}-wisdom-{source}`
+- Repository separation documented
+- VPS conformity clarified
+
+---
+
 ## [3.0.0] - 2026-01-16 — REVOLUTION
 
 ### 🌌 Major Changes

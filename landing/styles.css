@@ -1,5 +1,11 @@
 /* ═══════════════════════════════════════════════════════════════════════════════
    VΞGΔ LANDING PAGE STYLES — VEGA AESTHETIC
+   ═══════════════════════════════════════════════════════════════════════════════
+   
+   LAYOUT STRATEGY:
+   - CSS Grid: Main layouts (Liquid Responsiveness with minmax)
+   - Flexbox: Component-level layouts (Quick alignment)
+   - Hybrid: Best of both worlds
    ═══════════════════════════════════════════════════════════════════════════════ */
 
 :root {

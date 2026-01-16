@@ -1,0 +1,23 @@
+name: VEGA Continuous Deployment
+
+# ═══════════════════════════════════════════════════════════════════════════════
+# DISABLED: This workflow is for VEGA Enterprise, not for Ø Vision Repository
+# Ø Repository is a Vision/Conceptual Framework repository, no deployment needed
+# ═══════════════════════════════════════════════════════════════════════════════
+
+on:
+  workflow_dispatch:  # Only manual trigger, not on push
+  # push:
+  #   branches: [main, gh-pages1, gh-pages2, gh-pages3]
+
+jobs:
+  deploy-ecosystem:
+    runs-on: ubuntu-latest
+    if: false  # Disabled - not relevant for Ø Vision Repository
+    steps:
+      - name: Workflow Disabled
+        run: |
+          echo "This workflow is disabled for Ø Vision Repository."
+          echo "Ø Repository is a Vision/Conceptual Framework repository."
+          echo "No deployment needed."
+          exit 0
