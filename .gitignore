@@ -104,6 +104,10 @@ _CONTINUUM/OSTUDIO_DMG/**/*.png
 _CONTINUUM/OSTUDIO_DMG/**/*.mp4
 _CONTINUUM/OSTUDIO_DMG/**/*.mov
 
+# EXCLUDE ENTIRE _CONTINUUM DIRECTORY
+_CONTINUUM/
+_CONTINUUM/**
+
 # VPS-specific (sensitive)
 **/vps/**/*.env
 **/vps/**/credentials*
