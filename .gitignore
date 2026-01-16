@@ -1,0 +1,110 @@
+# ═══════════════════════════════════════════════════════════════════════════════
+# VΞGΔ GITIGNORE — VPS-Konform & Safety Protocol
+# ═══════════════════════════════════════════════════════════════════════════════
+# ARCHITECT: ADAM EREN VEGA - Æ
+# DATE: 2026-01-16
+# ═══════════════════════════════════════════════════════════════════════════════
+
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+.yarn/
+.yarn/cache
+.yarn/unplugged
+.yarn/build-state.yml
+.yarn/install-state.gz
+
+# Build outputs
+.next/
+out/
+dist/
+build/
+*.tsbuildinfo
+
+# Environment variables & Credentials (CRITICAL - NEVER COMMIT)
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+*.env
+EXTRACTED_ENV/
+EXTRACTED_ENV_FILES/
+EXTRACTED_CREDENTIALS.json
+EXTRACTED_CREDENTIALS.md
+**/credentials.json
+**/secrets.json
+**/*secret*
+**/*key*
+**/*password*
+**/*token*
+**/*api_key*
+**/*apikey*
+
+# Logs
+*.log
+logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.cursor/
+
+# Temporary files
+*.tmp
+*.temp
+.deploy-temp/
+.tmp/
+
+# Large dumps (keep structure, ignore content)
+_CONTINUUM/.dump*
+_CONTINUUM/.DUMPALL
+_CONTINUUM/.ostudio
+_CONTINUUM/.dumpclaude
+_CONTINUUM/.dumpgoogle
+
+# DMG files
+*.dmg
+._*.dmg
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+ENV/
+env/
+
+# Docker
+.dockerignore
+
+# Keep structure but ignore large binary files
+_CONTINUUM/OSTUDIO_DMG/**/*.jpeg
+_CONTINUUM/OSTUDIO_DMG/**/*.jpg
+_CONTINUUM/OSTUDIO_DMG/**/*.png
+_CONTINUUM/OSTUDIO_DMG/**/*.mp4
+_CONTINUUM/OSTUDIO_DMG/**/*.mov
+
+# VPS-specific (sensitive)
+**/vps/**/*.env
+**/vps/**/credentials*
+**/vps/**/secrets*
