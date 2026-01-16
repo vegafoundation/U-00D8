@@ -146,7 +146,7 @@ class EntropyEngine {
 }
 
 // Global entropy hook
-const useEntropy = (seed) => {
+export const useEntropy = (seed) => {
   return useMemo(() => new EntropyEngine(seed), [seed]);
 };
 
