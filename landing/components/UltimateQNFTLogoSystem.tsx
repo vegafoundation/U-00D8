@@ -27,7 +27,15 @@ const C = {
   gray: '#888888',
   darkGray: '#333333',
   
-  // VEGA Core
+  // VΞGΔ Branding Colors
+  vegaBlue: '#0066FF',
+  vegaRed: '#FF0033',
+  aetherMuskRed: '#CC3366',
+  deepAqua: '#006B7D',
+  oceanic: '#0077BE',
+  manaRem: '#4A90E2',
+  
+  // Legacy VEGA Core (for compatibility)
   signalGreen: '#22c55e',
   etherCyan: '#06b6d4',
   resonancePurple: '#a855f7',

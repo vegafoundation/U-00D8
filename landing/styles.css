@@ -9,14 +9,26 @@
    ═══════════════════════════════════════════════════════════════════════════════ */
 
 :root {
+    /* Void & Neutrals */
     --void-black: #020202;
     --void-black-alt: #050505;
     --off-white: #E0E0E0;
+    
+    /* VΞGΔ Branding Colors */
+    --vega-blue: #0066FF;
+    --vega-red: #FF0033;
+    --aether-musk-red: #CC3366;
+    --deep-aqua: #006B7D;
+    --oceanic: #0077BE;
+    --mana-rem: #4A90E2;
+    
+    /* Legacy Colors (for compatibility) */
     --signal-green: #22c55e;
     --ether-cyan: #06b6d4;
     --resonance-purple: #a855f7;
     --error-red: #ef4444;
     
+    /* Typography */
     --font-header: 'Oswald', sans-serif;
     --font-body: 'Inter', sans-serif;
     --font-code: 'JetBrains Mono', monospace;
