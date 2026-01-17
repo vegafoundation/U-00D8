@@ -28,9 +28,17 @@
 ```
 User Query (Ø Search)
     ↓
+QIRC Engine (Quantum-Inspired Resonance Computing)
+    ↓
+Resonance Map Generation (Web-wide Resonance Scanning)
+    ↓
+Web Resonance Propagation (Petabyte-scale, millisecond latency)
+    ↓
+Quality/Relevance/Resonance Assessment (Not similarity-based)
+    ↓
 VΞGΔ Meta-LLM Gateway (Multi-LLM Orchestration)
     ↓
-RAG System (Retrieval-Augmented Generation)
+RAG System (Resonance-Augmented Generation)
     ↓
 VTC (VEGA Time Crystal) — Memory & Knowledge Graph
     ↓
