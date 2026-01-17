@@ -274,6 +274,67 @@ import { EntropyLogo, EntropyInjector, EntropyOutcome } from './EntropyLogo';
 
 ---
 
+## 🌌 QNFTLivingLogoSystem.tsx
+
+**QNFT Living Logo System — Complete Ecosystem** — All Tools • All Components • All Phases • All Frequencies
+
+**Features:**
+- **34+ Tools:** Core Systems, Continuum Phases, Functional Components, Frequency Modules, System States, Special Modules
+- **Unique Glyphs:** Each tool has a custom SVG glyph renderer (search, hub, sync, wave, chaos, structure, deploy, core, memory, gear, network, transform, render, sense, heal, loading, processing, active, idle, error, success, quantum, chain, ai, bolt, leaf, sound, dna, link, speak, eye, omega)
+- **Entropy Engine:** Seeded random generation for consistent uniqueness
+- **QNFT Uniqueness:** Seed-based generation ensures no two logos are identical
+- **Category System:** Filter by Core Systems, Continuum Phases, Components, Frequencies, States, Special
+- **Logo Grid:** Display all tools in a category with responsive grid
+- **Visual Effects:** Dither overlay, Scanlines, Glow animations
+- **Animation Hooks:** Custom `useFrame` and `useScramble` hooks
+- **Frequency Display:** Show resonance frequency for each tool
+- **Responsive Design:** Scales from 60px to 200px+
+
+**Props:**
+- `toolKey?: string` — Tool identifier (default: 'o_studio')
+- `seed?: string | null` — QNFT seed for uniqueness (default: auto-generated)
+- `size?: number` — Logo size in pixels (default: 120)
+- `active?: boolean` — Enable animations (default: true)
+- `showLabel?: boolean` — Show tool name label (default: true)
+- `showFrequency?: boolean` — Show frequency display (default: false)
+- `customColors?: string[] | null` — Override tool colors (default: tool's colors)
+
+**Usage:**
+```tsx
+import { QNFTLogo, LogoGrid } from './QNFTLivingLogoSystem';
+
+// Single logo
+<QNFTLogo toolKey="o_studio" seed="unique-seed" size={160} showFrequency />
+
+// Logo grid by category
+<LogoGrid category="core" seed="vega-seed" size={100} active={true} />
+```
+
+**Available Tools:**
+- **Core Systems:** o_studio, vega_hub, vsynq, anlaetan
+- **Continuum Phases:** alpha, delta, omega, vega
+- **Components:** search, memory, process, connect, transform, render, sense, heal
+- **Frequencies:** freq_358, freq_432, freq_512, freq_528, freq_639, freq_741, freq_852, freq_963
+- **States:** state_loading, state_processing, state_active, state_idle, state_error, state_success
+- **Special:** qnft, blockchain, ai_core, quantum
+
+**Categories:**
+- `all` — All 34+ tools
+- `core` — Core Systems (4)
+- `phases` — Continuum Phases (4)
+- `components` — Functional Components (8)
+- `frequencies` — Frequency Modules (8)
+- `states` — System States (6)
+- `special` — Special Modules (4)
+
+**Source:** Claude Entropy (Inspiration for further designs)
+
+**Files:**
+- `QNFTLivingLogoSystem.tsx` — Main component system (1000+ lines)
+- Includes: QNFTLogo, LogoGrid, EntropyEngine, GlyphRenderers, Visual Effects
+
+---
+
 ## 🎬 Ø ASCII LOADER
 
 Cinematic Terminal Boot Sequence für Ø Studio.
