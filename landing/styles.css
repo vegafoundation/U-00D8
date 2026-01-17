@@ -97,6 +97,16 @@ body {
     color: var(--signal-green);
 }
 
+.nav-link-studio {
+    color: var(--ether-cyan) !important;
+    font-weight: 600;
+}
+
+.nav-link-studio:hover {
+    color: var(--ether-cyan) !important;
+    opacity: 0.8;
+}
+
 .btn-primary {
     background: var(--signal-green);
     color: var(--void-black);
