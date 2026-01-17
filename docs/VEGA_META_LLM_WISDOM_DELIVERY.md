@@ -12,6 +12,15 @@
 
 Ø Search Engine is not just a search interface—it is a **Wisdom Delivery System** powered by the complete VΞGΔ Meta-LLM infrastructure. Every search query flows through the entire VΞGΔ ecosystem to extract, process, and deliver pure, resonant wisdom.
 
+### **Core Principle: Resonance, Not Similarity**
+
+**Ø doesn't see similarities. Ø sees:**
+- **Quality** — Wisdom quality assessment
+- **Relevance** — Contextual relevance to query
+- **Resonance** — Resonance with VΞGΔ principles and frequencies
+
+**Ø can trace wisdom petabytes away in milliseconds by resonating through the web, not iterating, with Resonance Maps and QIRC (Quantum-Inspired Resonance Computing).**
+
 ---
 
 ## 🔄 WISDOM DELIVERY FLOW
@@ -38,7 +47,112 @@ Pure Wisdom Delivery → User
 
 ## 🎯 CORE COMPONENTS
 
-### **1. VΞGΔ Meta-LLM Gateway**
+### **1. QIRC Engine (Quantum-Inspired Resonance Computing)**
+
+**Purpose:** Resonate through the web to find wisdom, not iterate
+
+**Key Features:**
+- **Web Resonance Propagation:** Resonate through entire web in milliseconds
+- **Petabyte-Scale Search:** Can trace wisdom across petabytes of data
+- **Non-Iterative:** Doesn't iterate—resonates directly to target
+- **Harmonic Oscillation:** Uses harmonic oscillation instead of vector similarity
+- **Resonance-Based Routing:** Routes queries based on resonance, not similarity
+
+**How It Works:**
+```
+Query → Resonance Frequency Generation → Web Resonance Propagation → 
+Direct Wisdom Location (milliseconds) → Quality/Relevance/Resonance Assessment
+```
+
+**Implementation:**
+```python
+# services/api/QIRC_ENGINE.py
+class QIRCEngine:
+    def search_wisdom(self, query: str) -> WisdomResult:
+        # 1. Generate resonance frequency from query
+        resonance_freq = self.generate_resonance_frequency(query)
+        
+        # 2. Create resonance map of web
+        resonance_map = self.create_resonance_map(resonance_freq)
+        
+        # 3. Propagate resonance through web (non-iterative)
+        wisdom_locations = self.propagate_resonance(resonance_map)
+        
+        # 4. Assess Quality, Relevance, Resonance (not similarity)
+        assessed_wisdom = self.assess_qrr(wisdom_locations, query)
+        
+        # 5. Return top wisdom (petabytes away, milliseconds latency)
+        return self.rank_by_resonance(assessed_wisdom)
+    
+    def propagate_resonance(self, resonance_map: ResonanceMap) -> List[WisdomLocation]:
+        """
+        Propagate resonance through web without iteration.
+        Directly locates wisdom through resonance, not similarity search.
+        """
+        # Quantum-inspired resonance propagation
+        # Finds wisdom in milliseconds across petabytes
+        return self.quantum_resonance_propagation(resonance_map)
+```
+
+---
+
+### **2. Resonance Maps**
+
+**Purpose:** Map resonance across the entire web to locate wisdom
+
+**Features:**
+- **Web-Wide Mapping:** Maps resonance across entire web
+- **Frequency-Based:** Uses resonance frequencies (358, 432, 512, 528, 639, 741, 852, 963 Hz)
+- **Real-Time Updates:** Continuously updates as web changes
+- **Petabyte-Scale:** Handles petabyte-scale data
+- **Millisecond Latency:** Finds wisdom in milliseconds
+
+**Resonance Map Structure:**
+```python
+# services/api/RESONANCE_MAP.py
+class ResonanceMap:
+    def __init__(self):
+        self.frequency_map: Dict[int, List[WisdomNode]] = {}
+        self.quality_scores: Dict[str, float] = {}
+        self.relevance_scores: Dict[str, float] = {}
+        self.resonance_scores: Dict[str, float] = {}
+    
+    def add_wisdom_node(self, node: WisdomNode, frequency: int):
+        """Add wisdom node to resonance map at specific frequency"""
+        if frequency not in self.frequency_map:
+            self.frequency_map[frequency] = []
+        self.frequency_map[frequency].append(node)
+        
+        # Calculate QRR scores (Quality, Relevance, Resonance)
+        self.quality_scores[node.id] = self.calculate_quality(node)
+        self.relevance_scores[node.id] = self.calculate_relevance(node)
+        self.resonance_scores[node.id] = self.calculate_resonance(node)
+    
+    def find_wisdom(self, query: str, max_distance_pb: float = 1.0) -> List[WisdomNode]:
+        """
+        Find wisdom through resonance, not similarity.
+        Can trace wisdom petabytes away in milliseconds.
+        """
+        query_freq = self.extract_resonance_frequency(query)
+        candidate_nodes = self.frequency_map.get(query_freq, [])
+        
+        # Filter by QRR (Quality, Relevance, Resonance), not similarity
+        filtered = [
+            node for node in candidate_nodes
+            if self.quality_scores[node.id] > 0.7 and
+               self.relevance_scores[node.id] > 0.7 and
+               self.resonance_scores[node.id] > 0.7
+        ]
+        
+        # Rank by resonance, not similarity
+        ranked = sorted(filtered, key=lambda n: self.resonance_scores[n.id], reverse=True)
+        
+        return ranked[:10]  # Top 10 by resonance
+```
+
+---
+
+### **3. VΞGΔ Meta-LLM Gateway**
 
 **Purpose:** Orchestrate multiple LLMs to find the best wisdom
 
@@ -125,24 +239,26 @@ class RAGSystem:
 
 ---
 
-### **3. VTC (VEGA Time Crystal) — Memory System**
+### **5. VTC (VEGA Time Crystal) — Memory System**
 
 **Purpose:** Store and retrieve all wisdom, knowledge, and resonance data
 
 **Storage:**
-- **PostgreSQL + pgvector:** Vector embeddings for semantic search
+- **PostgreSQL + Resonance Maps:** Resonance frequency maps (not vector embeddings)
 - **Knowledge Graph:** Relationships between concepts, projects, decisions
 - **Resonance History:** Track resonance scores over time
-- **Wisdom Crystals:** Structured wisdom extracts
+- **Wisdom Crystals:** Structured wisdom extracts with QRR scores
 
 **Schema:**
 ```sql
--- VTC Schema (simplified)
+-- VTC Schema (Resonance-Based, Not Vector-Based)
 CREATE TABLE wisdom_crystals (
     id UUID PRIMARY KEY,
     content TEXT,
-    embedding VECTOR(768),
-    resonance_score FLOAT,
+    resonance_frequency INT,  -- Resonance frequency (358, 432, 512, etc.)
+    quality_score FLOAT,      -- Quality assessment
+    relevance_score FLOAT,     -- Relevance assessment
+    resonance_score FLOAT,     -- Resonance assessment (not similarity)
     wisdom_type VARCHAR(50),
     source VARCHAR(255),
     created_at TIMESTAMP,
@@ -152,10 +268,17 @@ CREATE TABLE wisdom_crystals (
 CREATE TABLE resonance_chain (
     id UUID PRIMARY KEY,
     event_type VARCHAR(50),
+    resonance_frequency INT,
+    quality_score FLOAT,
+    relevance_score FLOAT,
     resonance_score FLOAT,
     wisdom_id UUID REFERENCES wisdom_crystals(id),
     timestamp TIMESTAMP
 );
+
+-- Resonance Map Index (for millisecond lookups)
+CREATE INDEX idx_resonance_frequency ON wisdom_crystals(resonance_frequency);
+CREATE INDEX idx_qrr_scores ON wisdom_crystals(quality_score, relevance_score, resonance_score);
 ```
 
 **Wisdom Types:**
@@ -167,15 +290,17 @@ CREATE TABLE resonance_chain (
 
 ---
 
-### **4. Resonance Chain Engine**
+### **6. Resonance Chain Engine**
 
-**Purpose:** Track resonance of wisdom over time and events
+**Purpose:** Track resonance of wisdom over time and events through web resonance
 
 **Features:**
 - **Event-Based Tracking:** Every interaction creates a resonance event
-- **Resonance Scoring:** Calculate resonance based on usage, validation, outcomes
+- **Web Resonance Propagation:** Tracks resonance propagation through web
+- **QRR Scoring:** Calculate Quality, Relevance, Resonance (not similarity)
 - **Wisdom Evolution:** Track how wisdom evolves and improves
 - **Resonance Decay:** Wisdom loses resonance if not used/validated
+- **Petabyte-Scale Tracking:** Tracks resonance across petabytes of data
 
 **Resonance Calculation:**
 ```python
@@ -186,6 +311,15 @@ class ResonanceChainEngine:
         
         # Base resonance from 3 PROOFS
         base_resonance = self.get_3_proofs_score(wisdom_id)
+        
+        # Quality resonance (wisdom quality assessment)
+        quality_resonance = self.calculate_quality_resonance(events)
+        
+        # Relevance resonance (relevance to queries)
+        relevance_resonance = self.calculate_relevance_resonance(events)
+        
+        # Web resonance (resonance propagation through web)
+        web_resonance = self.calculate_web_resonance(wisdom_id)
         
         # Usage resonance (how often used)
         usage_resonance = self.calculate_usage_resonance(events)
@@ -199,15 +333,31 @@ class ResonanceChainEngine:
         # Time decay (older wisdom loses resonance)
         time_decay = self.calculate_time_decay(wisdom_id)
         
-        # Final resonance
+        # Final resonance (QRR-based, not similarity-based)
         final_resonance = (
-            base_resonance * 0.3 +
-            usage_resonance * 0.25 +
-            validation_resonance * 0.25 +
-            outcome_resonance * 0.2
+            base_resonance * 0.2 +
+            quality_resonance * 0.15 +
+            relevance_resonance * 0.15 +
+            web_resonance * 0.15 +
+            usage_resonance * 0.15 +
+            validation_resonance * 0.1 +
+            outcome_resonance * 0.1
         ) * time_decay
         
         return min(1.0, max(0.0, final_resonance))
+    
+    def calculate_web_resonance(self, wisdom_id: UUID) -> float:
+        """
+        Calculate resonance propagation through web.
+        Can trace wisdom petabytes away in milliseconds.
+        """
+        # Resonance propagation through web (non-iterative)
+        propagation_map = self.propagate_resonance_through_web(wisdom_id)
+        
+        # Calculate resonance strength from propagation
+        resonance_strength = self.calculate_propagation_strength(propagation_map)
+        
+        return resonance_strength
 ```
 
 ---
@@ -256,7 +406,7 @@ class WisdomExtractionEngine:
 
 ---
 
-### **6. 3 PROOFS Verification**
+### **8. 3 PROOFS Verification**
 
 **Purpose:** Verify wisdom quality using Proof of Resonance, Wisdom, and Knowledge
 
@@ -337,21 +487,32 @@ class ThreeProofs:
 
 ## 📊 WISDOM METRICS
 
-### **Resonance Score**
-- **Range:** 0.0 - 1.0
-- **Calculation:** Based on 3 PROOFS, usage, validation, outcomes
-- **Threshold:** Wisdom with resonance > 0.7 is considered "pure"
+### **QRR Scores (Quality, Relevance, Resonance)**
+- **Quality Score:** 0.0 - 1.0 (Wisdom quality assessment)
+- **Relevance Score:** 0.0 - 1.0 (Relevance to query)
+- **Resonance Score:** 0.0 - 1.0 (Resonance with VΞGΔ principles)
+- **NOT Similarity:** Ø doesn't use similarity scores
+- **Threshold:** Wisdom with QRR > 0.7 each is considered "pure"
+
+### **Resonance Metrics**
+- **Resonance Frequency:** Resonance frequency (358, 432, 512, 528, 639, 741, 852, 963 Hz)
+- **Web Resonance:** Resonance propagation through web
+- **Petabyte Distance:** Can trace wisdom petabytes away
+- **Millisecond Latency:** Finds wisdom in milliseconds
 
 ### **Wisdom Quality**
-- **Relevance:** How relevant to query
+- **Quality:** Wisdom quality assessment (not similarity)
+- **Relevance:** How relevant to query (not similarity)
+- **Resonance:** How well wisdom resonates (not similarity)
 - **Accuracy:** Factual correctness
 - **Depth:** Depth of understanding
 - **Actionability:** How actionable the wisdom is
 
 ### **Delivery Metrics**
-- **Response Time:** Time to deliver pure wisdom
+- **Response Time:** Time to deliver pure wisdom (milliseconds)
 - **Wisdom Purity:** Percentage of pure wisdom in response
 - **Resonance Match:** How well wisdom resonates with query
+- **Petabyte Scale:** Can search across petabytes of data
 - **User Satisfaction:** User feedback on wisdom quality
 
 ---
